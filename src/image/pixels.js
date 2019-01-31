@@ -421,9 +421,7 @@ p5.prototype.filter = function(operation, value) {
  * upper-left corner of the image, regardless of the current <a href="#/p5/imageMode">imageMode()</a>.
  * <br><br>
  * If the pixel requested is outside of the image window, [0,0,0,255] is
- * returned. To get the numbers scaled according to the current color ranges
- * and taking into account <a href="#/p5/colorMode">colorMode</a>, use <a href="#/p5/getColor">getColor</a> instead of get.
- * <br><br>
+ * returned. 
  * Getting the color of a single pixel with get(x, y) is easy, but not as fast
  * as grabbing the data directly from <a href="#/p5/pixels">pixels[]</a>. The equivalent statement to
  * get(x, y) using <a href="#/p5/pixels">pixels[]</a> with pixel density d is
